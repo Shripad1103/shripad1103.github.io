@@ -1,0 +1,50 @@
+body,
+html{
+	font-family: 'Rubik Scribble', sans-serif;
+	height: 100%;
+	width: 100%;
+
+	background: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+	font-size: 3rem;
+	color: whitesmoke;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
+.buffer{
+	height: 10rem;
+}
+
+.btn{
+	font-weight: 700;
+		border-radius: 300px;
+		text-transform: uppercase;
+}
+
+.btn-primary{
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+	border-width: 4px	;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
